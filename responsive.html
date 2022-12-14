@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> TiredPony123's Portfolio </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css-code/navbar.css" >
+        <link rel="stylesheet" href="css-code/imagetext.css">
+        <link rel="stylesheet" href="css-code/application-box.css">
+        <link rel="stylesheet" href="css-code/explore-further.css">
+        <link rel="stylesheet" href="css-code/open-house.css">
+        <link rel="stylesheet" href="css-code/connect.css">
+        <link rel="stylesheet" href="css-code/footer.css">
+        <link rel="stylesheet" href="css-code/personas.css">
+        <link rel="stylesheet" href="css-code/slide.css">
+    </head>
+
+    <body>
+         <!-- The navigation menu and the switch to burger menu is based upon 2 tutorials available at www.w3schools.com-->
+        <div class="header">
+          <ul id="nav">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./index.html#about-main">about</a></li>
+            <li><a href="./index.html#work-main">work</a></li>
+          </ul>
+        </div>
+
+        <div class="page-title">
+          <h1>Responsive Redesign</h1>
+          <h3>Redesigning Yale School of Art's Website</h3>
+        </div>
+
+      <div class="personas-introduction-box">
+        <div class="personas-introduction-container">
+          <h1> Introduction </h1> 
+          <p> <i>Responsive Redesign</i> is a project I have done as a part of my CSCI1300: User Interface and User Experiences course at Brown University. My task was to analyze and identify flaws in an existing interface, create low-fidelity and high-fidelity prototypes for various screen sizes, and build a responsive website based on those prototypes.
+          </p>
+        </div>    
+    </div>
+
+
+    <div class="desc-box">
+      <div class="desc-container">
+        <h1> Identifying Usability Problems </h1> 
+        <h2>Case Study: Yale School of Art Website</h2>
+        <p> I chose Yale School of Art's website because it is one of the most notorious web pages in terms of its UI/UX design, as it allows anyone from the school community to edit the pages. 
+        </p>
+      </div>    
+  </div>
+
+  <div>
+    <img src="images/yale-org.png" alt="react project image" style="margin-left: 25%; margin-right: 25%; max-width: 900px;">
+  </div> 
+
+  <div class="desc-box">
+    <div class="desc-container">
+    <h2> Usability Problems </h2> 
+      <p> 
+        Usability assesses the ease of use of a certain design by different types of users. I will list the main components of usability to assess the problems in the UI/UX design of Yale School of Art's Website.
+      </p>
+    </div>    
+</div>
+
+
+<div class="u-problems-box">
+    <div class="u-problems-container">
+        <h3>Intuitive Design </h3>
+        <p class="italic-p"><b>How well do the intuitions of users match the website design?</b></p>
+        <p>The navigation bar is located on the left side of the page, rather than on top. Log-in information is also located at the bottom left side of the layout. The grids are not equal, and there is some unexpected information on the application page. Social links are located at the bottom, which is expected, but they are formatted as text rather than icons. Options of "page history" and "edit this page" are surprising as they are not frequently available on websites.</p>
+    </div>   
+</div>
+
+<div class="u-problems-box">
+    <div class="u-problems-container">
+        <h3>Learnability</h3>
+        <p class="italic-p"><b>How easy is it for new users to navigate and accomplish basic tasks on their first encounter with the design?</b></p>
+        <p>The website is filled with small-font links, some of which are hidden by the animated background images. Furthermore, navigation is quite confusing, and finding any type of information requires multiple scrolls over the page. </p>
+    </div>   
+</div>
+
+<div class="u-problems-box">
+    <div class="u-problems-container">
+        <h3>Memorability</h3>
+        <p class="italic-p"><b> How easy is it for returning users to recall the design of the webpage after a period of not using it? </b></p>
+        <p> The website is poorly organized, any text or image might be the link or information that the user is looking for. Therefore, it is difficult to remember what each page and link contains. The excessive and frequently updated use of background images and inconsistent coloring add another layer of difficulty.</p>
+    </div>   
+</div>
+
+<div class="u-problems-box">
+    <div class="u-problems-container">
+        <h3>Efficiency</h3>
+        <p class="italic-p"><b> How quickly can users perform the tasks that they aim to accomplish?  </b></p>
+        <p> Big images and clustered information make it difficult for users to parse through the information. Some links end up in unexpected places, decreasing the efficiency of use. </p>
+    </div>   
+</div>
+
+<div class="u-problems-box">
+    <div class="u-problems-container">
+        <h3>Errors and Satisfaction</h3>
+        <p class="italic-p"><b> How many errors do users encounter when using the website?  Is the recovery easy? What is the overall satisfaction level? </b></p>
+        <p> As mentioned in previous sections, confusing links may lead to many errors. The bright images, lack of consistency across pages, inconsistent use of fonts, and unexpected links and landing pages significantly reduce the level of satisfaction.  </p>
+    </div>   
+</div>
+
+<div class="desc-box">
+    <div class="desc-container">
+      <h2> Accesibility Problems </h2> 
+      <p> 
+        WebAIM WAVE detected no contrast errors, which was quite surprising as the web page is quite tiring to look at. However, the system found many problems in the hierarchical structure, which I fully agree with: it is quite difficult to separate headers, body, and navigation tools from each other. 
+      </p>
+    </div>   
+  </div>
+ 
+
+  <hr style="height:2px;
+            border-width:0;
+            color:#48552a;
+            background-color:#48552a;
+            margin-top: 40px;
+            margin-bottom: 40px; 
+            margin-right: 20%; 
+            margin-left: 20%;">
+
+<div class="desc-box">
+  <div class="desc-container">
+    <h1> Visual Redesign </h1> 
+    <h2>Low-Fidelity Prototyping</h2>
+    <p> 
+        Using Balsamic, I have created three low-fidelity wireframes to sketch my initial ideas and layout. These sketches aim to show my design differences between desktop, tablet, and mobile views as well. 
+    </p>
+    <h3> Desktop:</h3>
+  </div>   
+</div>
+
+<div>
+  <img src="images/Desktop copy.png" alt="react project image" style="margin-left: 20%; margin-right: 20%; max-width: 1055px;">
+</div> 
+
+<div class="desc-box">
+    <div class="desc-container">
+      <h3> Tablet:</h3>
+    </div>   
+  </div>
+  
+  <div>
+    <img src="images/Tablet copy.png" alt="react project image" style="margin-left: 20%; margin-right: 20%; max-width: 600px;">
+  </div> 
+
+  <div class="desc-box">
+    <div class="desc-container">
+      <h3> Phone:</h3>
+    </div>   
+  </div>
+  
+  <div>
+    <img src="images/Phone copy.png" alt="react project image" style="margin-left: 20%; margin-right: 20%; max-width: 600px; margin-bottom: 40px;">
+  </div> 
+
+
+  <div class="desc-box">
+    <div class="desc-container">
+      <h2>Visual Design Style Guide</h2>
+      <p> 
+        Below is the visual design style guide I created during my redesigning process. You can find some of the major and consistent design choices I made here.
+      </p>
+    </div>   
+  </div>
+
+  <div>
+    <img src="images/style guide copy.png" alt="react project image" style="margin-left: 25%; margin-right: 25%; max-width: 900px;border: 3px solid #48552a;">
+  </div>
+
+
+  <div class="desc-box">
+    <div class="desc-container">
+      <h2>High-Fidelity Prototyping</h2>
+      <p> 
+        Using Figma, I created three high-fidelity prototypes before launching the redesigned website. These sketches aim to show my design differences between desktop, tablet, and mobile views as well. Below the slideshow, which includes detailed annotations of my prototype design, you can find the full prototyles.
+      </p>
+    </div>   
+  </div>
+
+  <div style="max-width: 900px; margin-left: 25%; margin-right: 25%;">
+    <iframe src="./images/desktop-pdf.pdf" width="100%" height="500px">
+    </iframe>
+  </div>
+
+  <div style="max-width: 900px; margin-left: 25%; margin-right: 25%; margin-top: 30px;">
+    <iframe src="./images/m1.pdf" width="100%" height="500px">
+    </iframe>
+  </div>
+  
+
+  <iframe style="border: 1px solid rgba(255, 255, 255, 0.1);margin-left: 25%; margin-right: 25%; margin-top: 30px;" width="900" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fpj7WJgerIbT99HNNV855UL%2FDesktop-View%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D623%252C497%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2" allowfullscreen></iframe>
+
+  <iframe style="border: 1px solid rgba(255, 255, 255, 0.1);margin-left: 25%; margin-right: 25%; margin-top: 30px;" width="900" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZ1QazChHKowZFq6zvdRtsT%2FTablet-View%3Fpage-id%3D0%253A1%26node-id%3D1%253A4%26viewport%3D623%252C497%252C0.19%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A4" allowfullscreen></iframe>
+
+  <iframe style="border: 1px solid rgba(255, 255, 255, 0.1); margin-left: 25%; margin-right: 25%; margin-top: 30px;" width="900" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLaYAubh9mT0KJlrPjUOFQG%2FUntitled%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26starting-point-node-id%3D14%253A158%26scaling%3Dscale-down" allowfullscreen></iframe>
+
+
+
+
+<hr style="height:2px;
+  border-width:0;
+  color:#efa0b6;
+  background-color:#efa0b6;
+  margin-top: 40px;
+  margin-bottom: 40px; 
+  margin-right: 25%; 
+  margin-left: 25%;">
+
+
+<div class="desc-box">
+  <div class="desc-container">
+    <h1>The Link to My Redesigned Website</h1>
+    <p>     
+        You can find the redesigned version of Yale School of Arts "Apply" page, <a href="https://tiredpony123.github.io/responsive-redesign/">here</a>. If the hyperlink doesn't work, copy the following link: https://tiredpony123.github.io/responsive-redesign/
+    </p>
+  </div>   
+</div>
+
+
+
+
+    <div class="footer-box">
+      <div class="footer-container">
+          <h3>TiredPony123's uiux portfolio</h2>
+          <p class="line-one"> Thank you for vising my portfolio!</p>
+          <div class="footer-links">
+            <a class="link-contact" href="./index.html#about-main">About</a>  
+            <a class="link-contact" href="./index.html#work-main">Work</a>  
+          </div>
+      </div>    
+
+    </body>
+</html>

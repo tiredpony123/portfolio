@@ -1,0 +1,43 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+#nav {
+    text-align:center;
+}
+#nav li {
+    display:inline;
+}
+#nav a {
+    font-family: 'Pacifico', cursive;
+    color:rgb(161, 161, 161);
+    font-size: 18px;
+    text-decoration:none; 
+    padding:0 30px; 
+    transition: color 0.7s;
+}
+
+#nav a:hover {
+    color: #00503e;
+    text-decoration:underline; 
+}
+
+#nav a:active {
+    background-color: #00503e;
+    color: white;
+
+}
+
+
+
+
+
+
+
